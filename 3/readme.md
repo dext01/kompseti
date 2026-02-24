@@ -6,15 +6,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+##### 2) Установка зависимостей:
 ```
-2) Установка зависимостей:
-
 pip install scapy selenium requests webdriver-manager
 ```
 
+##### 3) Запуск программы:
 ```
-3) Запуск программы:
-
 sudo ./venv/bin/python parsing.py
 ```
 
