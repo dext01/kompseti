@@ -1,0 +1,3 @@
+Site,URL,Protocol,Port,Encryption,Cert_Verified,Server_Header
+Habr (HTTPS),https://habr.com/ru/feed/,HTTPS,443,TLS/SSL,True,QRATOR
+Crimea (HTTP),http://ueu.crimea.ru/,HTTP,80,None,False,Apache/2.4.7 (Ubuntu)
