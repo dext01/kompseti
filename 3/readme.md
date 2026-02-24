@@ -1,7 +1,7 @@
 #### Парсинг статей с хабра (https://habr.com/ru/hubs/artificial_intelligence/articles/page3/)
-```
-1) Запуск вирт. окружения:
 
+##### 1) Запуск вирт. окружения:
+```
 python3 -m venv venv
 source venv/bin/activate
 ```
