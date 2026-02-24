@@ -1,4 +1,4 @@
-#### Парсинг статей с хабра (https://habr.com/ru/hubs/artificial_intelligence/articles/page3/)
+#### Парсинг статей с разных страниц хабра (https://habr.com/ru/hubs/artificial_intelligence/articles/page1/)
 
 ##### 1) Запуск вирт. окружения:
 ```
