@@ -1,8 +1,22 @@
-Title,Author,Views,Time,Link
-"Неожиданный успех, превративший Anthropic в гиганта в сфере искусственного интеллекта",nikolz,8.4K,4 мин,https://habr.com/ru/articles/1002104/
-ТОП-15 бесплатных сервисов для генерации изображений в 2026 году,Mystery_master,9.5K,13 мин,https://habr.com/ru/articles/1002090/
-Стоит ли обжаловать решение суда? Битва AI-титанов в 2026 году,larayoda,6K,4 мин,https://habr.com/ru/articles/1002088/
-Zator: Специализированный язык программирования для построения генеративных пайплайнов через KoboldCpp и StableDiffusion,4ds-dev,6.7K,19 мин,https://habr.com/ru/articles/1002076/
-Реальный Real-time: управление ориентацией без фазовых задержек на быстрых МК,Kamil_GR,6.9K,3 мин,https://habr.com/ru/articles/1002058/
-"Нейросети, суды и разработчики: кто отвечает за то, что придумал ИИ?",darri_kon,7.7K,12 мин,https://habr.com/ru/articles/1002048/
-Data Structure Protocol (DSP): как дать LLM-агентам «долговременную память» о большом репозитории,kolkoni,8.2K,6 мин,https://habr.com/ru/articles/1002040/
+Title,Author,Views,Time,Link,Page
+От диплома до продакшена: Как я создавал архитектуру ИИ-проекта для… Часть 1: Что я хотел видеть дома в 2021,AlekseiVB,1.5K,8 мин,https://habr.com/ru/articles/1001512/,1
+Как преодолеть кризис технологий — переходим от вопроса «Как?» к вопросу «Зачем?». Взгляд через призму прошлого,Drazd,2.2K,10 мин,https://habr.com/ru/articles/1002382/,1
+Notte CLI: автоматизация браузера и развёртывание функций прямо из терминала,spilldahill,5.1K,3 мин,https://habr.com/ru/articles/1002800/,1
+"Что день грядущий нам готовит: Агентные системы, платформы, AgentOS или ничего не поменяется?",Kurt,5.5K,2 мин,https://habr.com/ru/articles/1002788/,1
+"KMP, XCode и 5% мазохистов: как мы писали AI-агентов на 4 платформы",arturdumchev,6.7K,9 мин,https://habr.com/ru/articles/1002744/,1
+"Они тратят больше, чем зарабатывают: почему Google и Amazon берут кредиты на 100 лет ради ИИ",cognitronn,6.3K,7 мин,https://habr.com/ru/companies/bothub/articles/1002664/,1
+Claude Sonnet 4.6 vs ChatGPT 5.2: кто же лучше?,dmitrifriend,6.9K,8 мин,https://habr.com/ru/companies/bothub/articles/1002746/,1
+"Gemini 3.1 Pro: обзор, бенчмарки, сравнение",mefdayy,8.1K,15 мин,https://habr.com/ru/companies/bothub/articles/1002536/,2
+Сначала я не поверил глазам: GPT-5.3-Codex-Spark выдает код моментально. Cerebras просто засунул память внутрь чипа,dmitrifriend,20K,15 мин,https://habr.com/ru/companies/bothub/articles/1002500/,2
+Они дали ему 50 долларов и приказали выжить. История первого ИИ-предпринимателя,cognitronn,7.7K,5 мин,https://habr.com/ru/companies/bothub/articles/1002412/,2
+Инфуры. Методы достижения AGI,Minebot,5.4K,18 мин,https://habr.com/ru/articles/1002468/,2
+"«Я напишу вам CLAUDE.md, и всё полетит»: как я провалил первую неделю внедрения ИИ и что пришлось менять",1endstick,7.3K,5 мин,https://habr.com/ru/articles/1002432/,2
+Ваш браузер — это узкое место для OpenClaw,finita,6.4K,2 мин,https://habr.com/ru/articles/1002342/,2
+10 миллиардов устройств работают на его коде. Он поддерживает его в одиночку. Теперь его атакует ИИ,cognitronn,13K,6 мин,https://habr.com/ru/companies/bothub/articles/1002324/,2
+"Неожиданный успех, превративший Anthropic в гиганта в сфере искусственного интеллекта",nikolz,8.4K,4 мин,https://habr.com/ru/articles/1002104/,3
+ТОП-15 бесплатных сервисов для генерации изображений в 2026 году,Mystery_master,9.5K,13 мин,https://habr.com/ru/articles/1002090/,3
+Стоит ли обжаловать решение суда? Битва AI-титанов в 2026 году,larayoda,6K,4 мин,https://habr.com/ru/articles/1002088/,3
+Zator: Специализированный язык программирования для построения генеративных пайплайнов через KoboldCpp и StableDiffusion,4ds-dev,6.7K,19 мин,https://habr.com/ru/articles/1002076/,3
+Реальный Real-time: управление ориентацией без фазовых задержек на быстрых МК,Kamil_GR,6.9K,3 мин,https://habr.com/ru/articles/1002058/,3
+"Нейросети, суды и разработчики: кто отвечает за то, что придумал ИИ?",darri_kon,7.7K,12 мин,https://habr.com/ru/articles/1002048/,3
+Data Structure Protocol (DSP): как дать LLM-агентам «долговременную память» о большом репозитории,kolkoni,8.2K,6 мин,https://habr.com/ru/articles/1002040/,3
