@@ -15,7 +15,7 @@ pip install scapy selenium requests webdriver-manager
 ```
 3) Запуск программы:
 
-sudo ./venv/bin/python main.py
+sudo ./venv/bin/python parsing.py
 ```
 
 ```
