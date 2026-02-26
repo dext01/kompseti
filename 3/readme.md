@@ -8,7 +8,7 @@ source venv/bin/activate
 
 ##### 2) Установка зависимостей:
 ```
-pip install scapy selenium requests webdriver-manager
+pip install -r requirements.txt
 ```
 
 ##### 3) Запуск программы:
