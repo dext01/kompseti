@@ -1,1 +1,64 @@
+# Парсер Habr с управлением через API (FastAPI + PostgreSQL)
 
+Этот проект представляет собой сервис для парсинга статей с сайта Habr.com. Управление парсером происходит через HTTP-запросы, а данные сохраняются в реляционную базу данных PostgreSQL.
+
+## Технологический стек
+* **Python 3.13+**
+* **FastAPI** — веб-фреймворк для создания API.
+* **Selenium** — инструмент для парсинга динамического контента.
+* **SQLAlchemy** — ORM для работы с базой данных.
+* **PostgreSQL** — основное хранилище данных.
+
+---
+
+## 1. Установка и настройка
+
+### Виртуальное окружение
+Создайте и активируйте виртуальное окружение:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Установка зависимостей
+```bash
+pip install -r requirements.txt
+```
+
+### Настройка базы данных PostgreSQL
+#### Зайдите в консоль Postgres и выполните следующие команды для создания базы и настройки прав:
+```bash
+-- Создание базы данных
+CREATE DATABASE my_database;
+
+-- Создание пользователя
+CREATE USER stepan WITH PASSWORD '1234';
+
+-- Настройка прав доступа к базе и схеме
+ALTER DATABASE my_database OWNER TO stepan;
+\c my_database
+GRANT ALL ON SCHEMA public TO stepan;
+ALTER SCHEMA public OWNER TO stepan;
+```
+## 2. Запуск приложения
+```bash
+python main.py
+```
+### Использование API (В НОВОМ ТЕРМИНАЛЕ!)
+```
+Парсим:
+curl "http://127.0.0.1:8000/parse?url=https://habr.com/ru/hubs/artificial_intelligence/articles/page3/"
+```
+```
+Извлекаем в json:
+curl "http://127.0.0.1:8000/get_data" | jq
+```
+### Структура данных в БД
+Каждая запись о статье содержит следующие поля:
+
+    id — уникальный идентификатор.
+    title — заголовок статьи.
+    author — имя автора.
+    views — количество просмотров.
+    time — время чтения.
+    link — прямая ссылка на статью.
