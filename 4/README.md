@@ -28,6 +28,7 @@ pip install -r requirements.txt
 ### Настройка базы данных PostgreSQL
 #### Зайдите в консоль Postgres и выполните следующие команды для создания базы и настройки прав:
 ```bash
+sudo -u postgres psql
 -- Создание базы данных
 CREATE DATABASE my_database;
 
