@@ -28,18 +28,28 @@ pip install -r requirements.txt
 ### Настройка базы данных PostgreSQL
 #### Зайдите в консоль Postgres и выполните следующие команды для создания базы и настройки прав:
 ```bash
+Запуск PostgreSQL-клиента:
 sudo -u postgres psql
+
 -- Создание базы данных
 CREATE DATABASE my_database;
 
 -- Создание пользователя
 CREATE USER stepan WITH PASSWORD '1234';
 
--- Настройка прав доступа к базе и схеме
+-- Передача прав на базу
 ALTER DATABASE my_database OWNER TO stepan;
+
+-- Подключение к базе
 \c my_database
+
+-- Права на схему и объекты
 GRANT ALL ON SCHEMA public TO stepan;
-ALTER SCHEMA public OWNER TO stepan;
+GRANT ALL ON ALL TABLES IN SCHEMA public TO stepan;
+GRANT ALL ON ALL SEQUENCES IN SCHEMA public TO stepan;
+
+-- Выход из psql
+\q
 ```
 ## 2. Запуск приложения
 ```bash
