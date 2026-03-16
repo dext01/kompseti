@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.log
+.docker/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
